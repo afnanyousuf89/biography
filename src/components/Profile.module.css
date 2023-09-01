@@ -1,0 +1,25 @@
+.profilemain{
+    width: 400px;
+    height: 350px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.profileimage{
+    width: 200px;
+    height: 200px;
+    border: 2px dashed #ccc;
+    border-radius: 50%;
+}
+
+.female{
+    border: 3px solid #d77171;
+}
+
+.male{
+    border: 3px solid #2cf40d;
+}
