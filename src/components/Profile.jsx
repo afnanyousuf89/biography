@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import mystyle from './Profile.module.css'
+import Inner from './Inner';
 
 function Profile(){
 
@@ -38,6 +39,8 @@ function Profile(){
 
                 <input type='button' value="Show Next" onClick={handleClick} />
             </div>
+
+            <Inner />
         </>
     )
 }
